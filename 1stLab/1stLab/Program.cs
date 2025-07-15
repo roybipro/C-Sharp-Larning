@@ -31,8 +31,18 @@ class Program
         Console.WriteLine("The area is: " + area);
         Console.WriteLine("The Perameter: " + perameter);
 
+        string name = Console.ReadLine();
+        Console.WriteLine("Welcome :"  +name);
 
+        //Parsing
+        string input1 = Console.ReadLine();
+        string input2 = Console.ReadLine();
+        int n = Int32.Parse(input1);
+        int m = Int32.Parse(input2);
+        Console.WriteLine(n+m);
 
+        //
+        Console.WriteLine(n*m);
     }
 }
 
